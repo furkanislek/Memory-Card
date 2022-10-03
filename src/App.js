@@ -1,11 +1,11 @@
 import './App.css';
-import Container from './components/Container';
+import Cards from './components/Cards';
 
 function App() {
   return (
     <div className="App">
       <h1>Memory Card Game - React</h1>
-      <Container/>
+      <Cards/>
     </div>
   );
 }
