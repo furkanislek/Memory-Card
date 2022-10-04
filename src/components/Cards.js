@@ -1,5 +1,6 @@
 import React from 'react'
 import {useState} from 'react'
+import Card from './Card'
 
 
 function Cards() {
@@ -21,12 +22,12 @@ function Cards() {
         {id: 7, img: '/img/tavuk.jpg', stat: ""},
         {id: 8, img: '/img/tavukdöner.jpg', stat: ""},
         {id: 8, img: '/img/tavukdöner.jpg', stat: ""}
-    ])
+    ].sort(() => Math.random() - 0.5))
 
   return (
     <div className='container'>
-        {items.map(item => (
-            
+        {items.map((item, index) => (
+           <Card key={index} item={item} /> 
         ))}
     </div>
   )
