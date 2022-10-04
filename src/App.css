@@ -1,6 +1,7 @@
 *{
     margin: 0;
     padding: 0;
+    color: rgb(255, 254, 193);
 }
 
 html, body{
@@ -9,7 +10,7 @@ html, body{
 
 body{
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    background-color: #fae19d;
+    background-image: url(../public/img/1272277.png);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -29,6 +30,8 @@ h1{
     grid-template-rows: repeat(4,1fr);
     gap: 1em;
 }
+
+
 
 .card{
     background-color: aliceblue;
@@ -85,3 +88,13 @@ h1{
 
 
 
+.gitIcon{
+    margin-top: 2rem;
+    text-align: center;
+    font-size: 2rem;
+}
+
+.icons{
+    margin: 10px;
+    color: black;
+}

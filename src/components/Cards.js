@@ -60,7 +60,9 @@ function Cards() {
       {items.map((item, index) => (
         <Card key={index} item={item} id={index} handleClick={handleClick} />
       ))}
+      
     </div>
+    
   );
 }
 
